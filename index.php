@@ -6,6 +6,8 @@
   <title>Sno-E Joe's Shaved Ice</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.min.css" />
+  <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
+  <link rel="stylesheet" href="css/foundation-icons/foundation-icons.svg" />
   <link rel="stylesheet" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
