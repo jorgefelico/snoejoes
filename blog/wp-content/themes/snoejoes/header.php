@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/foundation.min.css">
+  <link rel="stylesheet" href="../css/foundation-icons/foundation-icons.css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
   <?php wp_head(); ?>
 </head>
@@ -29,10 +30,12 @@
     <ul class="left">
       <li><a href="http://www.snoejoes.com">Home</a></li>
       <li><a href="http://www.snoejoes.com/#flavors">Flavors</a></li>
+      <li><a href="http://www.snoejoes.com/contact.php">Contact Us</a></li>
       <li class="active"><a href="http://www.snoejoes.com/blog">Blog</a></li>
     </ul>
   </section>
-</nav>
+  </nav>
+
 
   <div class="fullwidth header-wrap">
     <header class="row">

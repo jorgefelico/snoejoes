@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sno-E Joe's Shaved Ice</title>
+  <meta name="description" content="Sno-E Joe's provides the best hawaiian shave ice slushies in louisville. Stop by at our location to try one of our many flavors, or build your own flavor.">
+  <title>Sno-E Joe's Shaved Ice - Slushies, Snow Cones, and ice cream in Louisville</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.min.css" />
   <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
-  <link rel="stylesheet" href="css/foundation-icons/foundation-icons.svg" />
   <link rel="stylesheet" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
 </head>
 <body>
 
@@ -28,17 +29,18 @@
     </header>
   </div>
 
+<div class="fullwidth news">
+  <?php include('./partials/promotion.php'); ?>
+</div>
+
   <div class="fullwidth flavors-wrap">
-
-<?php include('./partials/promotion.php'); ?>
-
     <div id="flavors" class="flavors">
-      <div class="row unique-flavors">
+      <div class="row unique-flavors wow fadeIn">
         <h2>Many! Many! Flavors!</h2>
         <div class="columns large-6">
           <p class="create-your-own">Create your own shaved ice slushy flavor by mixing any flavors of your choice!</p>
         </div>
-        <div class="columns large-3">
+        <div class="columns large-3 wow rollIn">
           <h3>*SUGAR FREE*</h3>
           <ul class="sugar-free">
             <li>Cherry</li>
@@ -46,7 +48,7 @@
             <li>Grape</li>
           </ul>
         </div>
-        <div class="columns large-3">
+        <div class="columns large-3 wow rollIn">
           <h3>*DYE FREE*</h3>
           <ul class="dye-free">
             <li>Clear Cherry</li>
@@ -58,7 +60,7 @@
       <div class="row">
         <h3>*REGULAR FLAVORS*</h3>
         <div class="columns large-3">
-          <ul>
+          <ul class="wow bounceInLeft">
             <li>Apricot</li>
             <li>Bahama Mama</li>
             <li>Banana</li>
@@ -85,7 +87,7 @@
           </ul>
         </div>
         <div class="columns large-3">
-          <ul>
+          <ul class="wow bounceInUp">
             <li>Chocolate Covered Strawberry</li>
             <li>Coco-Banana</li>
             <li>Coconut</li>
@@ -112,7 +114,7 @@
           </ul>
         </div>
         <div class="columns large-3">
-          <ul>
+          <ul class="wow bounceInDown">
             <li>Leche</li>
             <li>Lemon</li>
             <li>Lemon-Lime</li>
@@ -139,7 +141,7 @@
           </ul>
         </div>
         <div class="columns large-3">
-          <ul>
+          <ul class="wow bounceInRight">
             <li>Red Raspberry</li>
             <li>Red Velvet Cake</li>
             <li>Rock & Roll</li>
@@ -170,21 +172,9 @@
       </div>
     </div>
   </div>
-</div>
 
 <?php
-include('./partials/footer.html');
+include('./partials/footer.php');
 ?>
-<script src="js/vendor/jquery.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script src="js/foundation.min.js"></script>
-<script>
-$(document).ready(function(){
-  $('.promotion').slick({
-
-  });
-  $(document).foundation();
-});
-</script>
 </body>
 </html>

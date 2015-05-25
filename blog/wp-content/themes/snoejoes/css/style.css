@@ -101,3 +101,11 @@ footer ul{
 footer ul li{
     margin: none;
 }
+ul.social li i{
+  font-size: 2.8rem;
+  color: white;
+}
+
+ul.social li:first-child{
+  margin-left: 0;
+}

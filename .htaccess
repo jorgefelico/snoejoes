@@ -2,3 +2,6 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^snoejoes.com [NC]
 RewriteRule ^(.*)$ http://www.snoejoes.com/$1 [L,R=301,NC]
+
+SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
+Deny from env=block_bad_bots

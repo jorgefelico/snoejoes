@@ -31,16 +31,10 @@
 				<li><a href="https://plus.google.com/108416075853917042468"><i class="fi-social-google-plus"></i></a></li>
 			</ul>
 		</div>
-		<?php include('../partials/news.php'); ?>
+		<?php include('./partials/news.php'); ?>
 	</footer>
 </div>
 
-<?php wp_footer(); ?>
-<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.min.js"></script>
-<script>
-$(document).foundation();
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,5 +44,29 @@ $(document).foundation();
   ga('create', 'UA-17007357-16', 'auto');
   ga('send', 'pageview');
 </script>
-</body>
-</html>
+
+<script src="js/vendor/jquery.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.promotion').slick({
+
+  });
+  $(document).foundation();
+});
+
+
+wow = new WOW(
+	{
+		boxClass:     'wow',      // default
+		animateClass: 'animated', // default
+		offset:       200,          // default
+		mobile:       false,       // default
+		live:         true        // default
+	}
+)
+wow.init();
+
+</script>
