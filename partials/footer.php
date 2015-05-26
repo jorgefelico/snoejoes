@@ -46,6 +46,7 @@
 </script>
 
 <script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/modernizr.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/wow.min.js"></script>

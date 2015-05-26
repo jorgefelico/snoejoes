@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,9 +35,17 @@
   <div class="fullwidth flavors-wrap">
 <div class="row">
   <div class="columns large-8 large-offset-2">
+
+    <?php if(isset($_SESSION['msg'])){ ?>
+    <div data-alert class="alert-box success radius">
+  Thank you, a staff member will be in touch.
+  <a href="#" class="close">&times;</a>
+</div>
+  <?php } session_destroy(); ?>
+
     <div id="flavors" class="flavors">
       <h2>To contact us, please fill out the form below.</h2>
-      <form class="" action="" method="post">
+      <form action="sendEmail.php" method="post">
         <label>Name
         <input type="text" name="name" placeholder="Name">
       </label>

@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once "recaptchalib.php";
 
 // your secret key
@@ -25,13 +26,25 @@ if ($response != null && $response->success) {
   $email = $_POST['email'];
   $message = $_POST['message'];
 
-$to = "jorgefelico@gmail.com";
-$from = "no-reply@snoejoes.com";
+$to = "joseph@snoejoes.com";
+$from = "Sno-E Joe's System <no-reply@snoejoes.com>";
 $subject = "Message for Sno-E Joe's";
 
-  $email = "Hello, Someone submitted the following information\n\n";
+$headers = "From: $from" . "\r\n" . "Reply-To: $email" . "\r\n";
+
+
+  $email = "Hello, Here is a message from one of your customers.\r\n \r\n
+  Name: $name \r\n
+  Number: $number \r\n
+  E-Mail: $email \r\n
+  Message: $message \r\n";
+
+$email = wordwrap($email, 70, "\r\n");
+mail($to, $subject, $email, $headers);
+$_SESSION['msg'] = "Thank you for contact us, we will respond shortly.";
+header("Location: http://www.snoejoes.com/contact.php");
 
   } else {
-
+echo "you aint no human";
   }
  ?>
