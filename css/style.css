@@ -59,11 +59,31 @@ h3,h4,h5{
   margin-top: 7%;
 }
 
+/* News
+==================================*/
 .news{
   background: #653090;
 }
 .news h2{
   color: white;
+}
+
+/* Products
+==================================*/
+.products{
+  background: white;
+}
+.product img{
+  margin: 0 auto;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+}
+.product p{
+  text-align: justify;
+}
+.product h3{
+  text-align: center;
 }
 
 /* Flavors

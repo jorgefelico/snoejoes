@@ -33,6 +33,29 @@
   <?php include('./partials/promotion.php'); ?>
 </div>
 
+<div class="fullwidth products">
+  <div class="row">
+<div class="columns large-12">
+  <h1>Our Products</h1>
+</div>
+<div class="columns large-4 product wow fadeInLeftBig">
+  <img src="img/snowcone.jpg">
+  <h3>Snow Cones</h3>
+  <p>We have over a hundred slushy flavors to choose from. You can also mix flavors of your choosing to make a your own snow cone flavor. We also have sugar free and dye free hawaiian shave ice flavors.</p>
+</div>
+<div class="columns large-4 product wow fadeInDownBig">
+  <img src="img/popsicle.png">
+  <h3>Packaged Ice Cream</h3>
+  <p>Packaged ice creams are also available, such as popsicles, ice cream sandwhiches and more... Stop by at our location to beat the summer heat with our ice creams!</p>
+</div>
+<div class="columns large-4 product wow fadeInRightBig">
+  <img src="img/hotdog.png">
+  <h3>Hot Dogs</h3>
+  <p>We not only serve icee's, snow cones, and ice creams in louisville. We have hot dogs and corn dogs for those who are looking for something more than ice cream or snow cones.</p>
+</div>
+</div>
+</div>
+
   <div class="fullwidth flavors-wrap">
     <div id="flavors" class="flavors">
       <div class="row unique-flavors wow fadeIn">
