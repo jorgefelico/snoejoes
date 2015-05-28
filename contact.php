@@ -7,7 +7,7 @@ session_start();
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="If you have any questions about our louisville slushies, snow cones, shave ice, hawaiian shaved ice or snowballs, fill out this form to contact us.">
-  <title>Sno-E Joe's Shaved Ice</title>
+  <title>Sno-E Joe's Shaved Ice - Contact Us</title>
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.min.css" />
   <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
