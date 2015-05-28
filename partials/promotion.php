@@ -32,7 +32,7 @@ $limit = 5;
 
 ?>
 <div class="row">
-<div class="columns large-12">
+<div class="columns medium-12">
   <h2>News and Promotions</h2>
 	<ul class="promotion">
 

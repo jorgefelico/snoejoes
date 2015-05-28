@@ -20,10 +20,10 @@
 
   <div class="fullwidth header-wrap">
     <header class="row">
-      <div class="columns large-4">
+      <div class="columns medium-4">
         <img class="logo" src="img/snoejoes-logo.png" alt="Sno-E Joe's Logo" />
       </div>
-      <div class="columns large-8">
+      <div class="columns medium-8">
         <p class="chalkboard">Shaved Ice with <span class="red">unique flavors</span> or <span class="green">create your own</span> favorite flavors. <span class="yellow">Drinks</span> and also packaged <span class="blue">ice creams</span> available.</p>
       </div>
     </header>
@@ -35,21 +35,21 @@
 
 <div class="fullwidth products">
   <div class="row">
-<div class="columns large-12">
+<div class="columns medium-12">
   <h1>Our Products</h1>
 </div>
-<div class="columns large-4 product wow fadeInLeftBig">
+<div class="columns medium-4 product wow fadeInLeftBig">
   <img src="img/snowcone.jpg">
   <h3>Snow Cones</h3>
   <p>We have over a hundred slushy flavors to choose from. You can also mix flavors of your choosing to make a your own snow cone flavor. We also have sugar free and dye free hawaiian shave ice flavors.</p>
 </div>
-<div class="columns large-4 product wow fadeInDownBig">
-  <img src="img/popsicle.png">
+<div class="columns medium-4 product wow fadeInDownBig">
+  <img src="img/popsicle.jpg">
   <h3>Packaged Ice Cream</h3>
   <p>Packaged ice creams are also available, such as popsicles, ice cream sandwhiches and more... Stop by at our location to beat the summer heat with our ice creams!</p>
 </div>
-<div class="columns large-4 product wow fadeInRightBig">
-  <img src="img/hotdog.png">
+<div class="columns medium-4 product wow fadeInRightBig">
+  <img src="img/hotdog.jpg">
   <h3>Hot Dogs</h3>
   <p>We not only serve icee's, snow cones, and ice creams in louisville. We have hot dogs and corn dogs for those who are looking for something more than ice cream or snow cones.</p>
 </div>
@@ -60,10 +60,10 @@
     <div id="flavors" class="flavors">
       <div class="row unique-flavors wow fadeIn">
         <h2>Many! Many! Flavors!</h2>
-        <div class="columns large-6">
+        <div class="columns medium-6">
           <p class="create-your-own">Create your own shaved ice slushy flavor by mixing any flavors of your choice!</p>
         </div>
-        <div class="columns large-3 wow rollIn">
+        <div class="columns medium-3 wow rollIn">
           <h3>*SUGAR FREE*</h3>
           <ul class="sugar-free">
             <li>Cherry</li>
@@ -71,7 +71,7 @@
             <li>Grape</li>
           </ul>
         </div>
-        <div class="columns large-3 wow rollIn">
+        <div class="columns medium-3 wow rollIn">
           <h3>*DYE FREE*</h3>
           <ul class="dye-free">
             <li>Clear Cherry</li>
@@ -82,7 +82,7 @@
 
       <div class="row">
         <h3>*REGULAR FLAVORS*</h3>
-        <div class="columns large-3">
+        <div class="columns medium-3">
           <ul class="wow bounceInLeft">
             <li>Apricot</li>
             <li>Bahama Mama</li>
@@ -109,7 +109,7 @@
             <li>Chocolate Covered Cherry</li>
           </ul>
         </div>
-        <div class="columns large-3">
+        <div class="columns medium-3">
           <ul class="wow bounceInUp">
             <li>Chocolate Covered Strawberry</li>
             <li>Coco-Banana</li>
@@ -136,7 +136,7 @@
             <li>Kiwi</li>
           </ul>
         </div>
-        <div class="columns large-3">
+        <div class="columns medium-3">
           <ul class="wow bounceInDown">
             <li>Leche</li>
             <li>Lemon</li>
@@ -163,7 +163,7 @@
             <li>Red Hot</li>
           </ul>
         </div>
-        <div class="columns large-3">
+        <div class="columns medium-3">
           <ul class="wow bounceInRight">
             <li>Red Raspberry</li>
             <li>Red Velvet Cake</li>

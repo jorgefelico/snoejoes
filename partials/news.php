@@ -22,7 +22,7 @@ $current = 0;
 $limit = 5;
 
 ?>
-<div class="columns large-4">
+<div class="columns medium-4">
 	<h4>Recent News</h4>
 	<ul>
 

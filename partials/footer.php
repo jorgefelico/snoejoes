@@ -1,6 +1,6 @@
 <div class="footer-wrap fullwidth">
 	<footer class="row">
-		<div class="columns large-4">
+		<div class="columns medium-4">
 			<h4>Information</h4>
 			<h5>Address:</h5>
 
@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 
-		<div class="columns large-4">
+		<div class="columns medium-4">
 			<h4>Share Us</h4>
 			<ul class="social inline-list">
 				<li><a href="https://www.facebook.com/snoejoes"><i class="fi-social-facebook"></i></a></li>
