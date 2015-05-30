@@ -33,49 +33,49 @@ session_start();
   </div>
 
   <div class="fullwidth flavors-wrap">
-<div class="row">
-  <div class="columns large-8 large-offset-2">
+    <div class="row">
+      <div class="columns large-8 large-offset-2">
 
-    <?php if(isset($_SESSION['msg'])){ ?>
-    <div data-alert class="alert-box success radius">
-  Thank you, a staff member will be in touch.
-  <a href="#" class="close">&times;</a>
-</div>
-  <?php } session_destroy(); ?>
+        <?php if(isset($_SESSION['msg'])){ ?>
+          <div data-alert class="alert-box success radius">
+            Thank you, a staff member will be in touch.
+            <a href="#" class="close">&times;</a>
+          </div>
+          <?php } session_destroy(); ?>
 
-    <div id="flavors" class="flavors">
-      <h2>To contact us, please fill out the form below.</h2>
-      <form action="sendEmail.php" method="post">
-        <label>Name
-        <input type="text" name="name" placeholder="Name">
-      </label>
+          <div id="flavors" class="flavors">
+            <h2>To contact us, please fill out the form below.</h2>
+            <form action="sendEmail.php" method="post">
+              <label>Name
+                <input type="text" name="name" placeholder="Name">
+              </label>
 
-      <label>Number
-        <input type="number" name="number" placeholder="Number">
-      </label>
+              <label>Number
+                <input type="number" name="number" placeholder="Number">
+              </label>
 
-      <label>E-Mail
-        <input type="email" name="email" placeholder="E-Mail">
-      </label>
+              <label>E-Mail
+                <input type="email" name="email" placeholder="E-Mail">
+              </label>
 
-      <label>Message
-        <textarea rows="5" name="message" placeholder="Message"></textarea>
-      </label>
+              <label>Message
+                <textarea rows="5" name="message" placeholder="Message"></textarea>
+              </label>
 
-<label>Human Verification
-      <div class="g-recaptcha" data-sitekey="6LfcWQcTAAAAAB7c8ilEItA1w4LMU7Xqy_Qbqek5"></div>
-</label>
-<br>
-      <button class="radius" type="submit">Send It</button>
-      </form>
+              <label>Human Verification
+                <div class="g-recaptcha" data-sitekey="6LfcWQcTAAAAAB7c8ilEItA1w4LMU7Xqy_Qbqek5"></div>
+              </label>
+              <br>
+              <button class="radius" type="submit">Send It</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
-  </div>
-</div>
 
-<?php
-include('./partials/footer.php');
-?>
+  <?php
+  include('./partials/footer.php');
+  ?>
 </body>
 </html>

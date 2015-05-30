@@ -2,7 +2,7 @@
 ==================================*/
 @font-face {
   font-family: chalk;
-  src: url('chalk-font.ttf');
+  src: url('chalk.woff');
 }
 body{
   background-color: #8AC53F;
