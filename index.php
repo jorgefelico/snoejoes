@@ -1,4 +1,3 @@
-<?php require('./quickcache/quickcache.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sno-E Joe's provides the best hawaiian shave ice slushies in louisville. Stop by at our location to try one of our many flavors, or build your own flavor.">
   <title>Sno-E Joe's Shaved Ice - Slushies, Snow Cones, and ice cream in Louisville</title>
-  <link rel="stylesheet" href="css/minified.min.css" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.min.css" />
+  <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css" />
+  <link rel="stylesheet" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="css/animate.css"/>
 </head>
 <body>
 
@@ -25,32 +29,32 @@
     </header>
   </div>
 
-  <div class="fullwidth news">
-    <?php include('./partials/promotion.php'); ?>
-  </div>
+<div class="fullwidth news">
+  <?php include('./partials/promotion.php'); ?>
+</div>
 
-  <div class="fullwidth products">
-    <div class="row">
-      <div class="columns medium-12">
-        <h1>Our Products</h1>
-      </div>
-      <div class="columns medium-4 product wow fadeInLeftBig">
-        <img src="img/snowcone.jpg" alt="Louisville Snow Cone">
-        <h3>Snow Cones</h3>
-        <p>We have over a hundred slushy flavors to choose from. You can also mix flavors of your choosing to make a your own snow cone flavor. We also have sugar free and dye free hawaiian shave ice flavors.</p>
-      </div>
-      <div class="columns medium-4 product wow fadeInDownBig">
-        <img src="img/popsicle.jpg" alt="Louisville Popsicle">
-        <h3>Packaged Ice Cream</h3>
-        <p>Packaged ice creams are also available, such as popsicles, ice cream sandwhiches and more... Stop by at our location to beat the summer heat with our ice creams!</p>
-      </div>
-      <div class="columns medium-4 product wow fadeInRightBig">
-        <img src="img/hotdog.jpg" alt="Louisville Hot Dog">
-        <h3>Hot Dogs</h3>
-        <p>We not only serve icee's, snow cones, and ice creams in louisville. We have hot dogs and corn dogs for those who are looking for something more than ice cream or snow cones.</p>
-      </div>
-    </div>
-  </div>
+<div class="fullwidth products">
+  <div class="row">
+<div class="columns medium-12">
+  <h1>Our Products</h1>
+</div>
+<div class="columns medium-4 product wow fadeInLeftBig">
+  <img src="img/snowcone.jpg">
+  <h3>Snow Cones</h3>
+  <p>We have over a hundred slushy flavors to choose from. You can also mix flavors of your choosing to make a your own snow cone flavor. We also have sugar free and dye free hawaiian shave ice flavors.</p>
+</div>
+<div class="columns medium-4 product wow fadeInDownBig">
+  <img src="img/popsicle.jpg">
+  <h3>Packaged Ice Cream</h3>
+  <p>Packaged ice creams are also available, such as popsicles, ice cream sandwhiches and more... Stop by at our location to beat the summer heat with our ice creams!</p>
+</div>
+<div class="columns medium-4 product wow fadeInRightBig">
+  <img src="img/hotdog.jpg">
+  <h3>Hot Dogs</h3>
+  <p>We not only serve icee's, snow cones, and ice creams in louisville. We have hot dogs and corn dogs for those who are looking for something more than ice cream or snow cones.</p>
+</div>
+</div>
+</div>
 
   <div class="fullwidth flavors-wrap">
     <div id="flavors" class="flavors">
@@ -192,8 +196,8 @@
     </div>
   </div>
 
-  <?php
-  include('./partials/footer.php');
-  ?>
+<?php
+include('./partials/footer.php');
+?>
 </body>
 </html>

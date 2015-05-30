@@ -25,7 +25,6 @@
 
 		<div class="columns medium-4">
 			<h4>Share Us</h4>
-<a href="#" class="button" data-reveal-id="sharing">Like Us</a>
 			<ul class="social inline-list">
 				<li><a href="https://www.facebook.com/snoejoes"><i class="fi-social-facebook"></i></a></li>
 				<li><a href="https://twitter.com/snoejoes"><i class="fi-social-twitter"></i></a></li>
@@ -46,21 +45,16 @@
   ga('send', 'pageview');
 </script>
 
-<script src="js/minified.min.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/modernizr.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
-
-function loadStyleSheet(src){
-    if (document.createStyleSheet){
-        document.createStyleSheet(src);
-    }
-    else {
-        $("head").append($("<link rel='stylesheet' href='"+src+"' type='text/css' />"));
-    }
-}
-
 $(document).ready(function(){
-  $('.promotion').slick({});
+  $('.promotion').slick({
 
+  });
   $(document).foundation();
 });
 
@@ -75,29 +69,5 @@ wow = new WOW(
 	}
 )
 wow.init();
+
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div id="sharing" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-  <h2 id="modalTitle">Go Ahead, Give us a like!</h2>
-  <p class="lead">Share your ice cream and snow cone experience with your friends.</p>
-  <ul>
-<li><div class="fb-like" data-href="http://www.snoejoes.com" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
-<li><!-- Place this tag in your head or just before your close body tag. -->
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-href="http://www.snoejoes.com"></div></li>
-
-<li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.snoejoes.com" data-text="The best snow cones in louisville!" data-via="snoejoes" data-related="snoejoes" data-hashtags="snowconeslouisville">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
-</ul>
-  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-</div>
