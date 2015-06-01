@@ -39,8 +39,8 @@
   <h1>Our Products</h1>
 </div>
 <div class="columns medium-4 product wow fadeInLeftBig">
-  <img src="img/snowcone.jpg">
-  <h3>Snow Cones</h3>
+  <img src="img/shavedice.jpg">
+  <h3>Shaved Ice</h3>
   <p>We have over a hundred slushy flavors to choose from. You can also mix flavors of your choosing to make a your own snow cone flavor. We also have sugar free and dye free hawaiian shave ice flavors.</p>
 </div>
 <div class="columns medium-4 product wow fadeInDownBig">
