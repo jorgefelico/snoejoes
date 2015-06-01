@@ -4,6 +4,7 @@
   font-family: chalk;
   src: url('chalk-font.ttf');
 }
+
 body{
   background-color: #8AC53F;
 }
@@ -52,7 +53,7 @@ h3,h4,h5{
   padding: 10px;
   border: 10px solid #B69DC8;
   border-radius: 5px;
-  font-family: chalk;
+  font-family: 'chalk';
   border: 10px solid #653090;
   font-size: 1.8rem;
   text-align: justify;
@@ -138,7 +139,7 @@ h3,h4,h5{
   font-family: chalk;
 }
 .flavors input, .flavors textarea{
-font-family: initial;
+  font-family: initial;
 }
 .flavors label{
   color: white !important;
